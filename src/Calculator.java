@@ -15,7 +15,7 @@ public class Calculator {
      
      Integer num1=userInput.nextInt();
      
-     System.out.println("Enter Second Nuumber");
+     System.out.println("Enter Second Number");
      
      Integer num2=userInput.nextInt();
      
@@ -43,10 +43,12 @@ public class Calculator {
      
      else if (operation.equals("/")){
     	 
-    	 System.out.println("Division of"+num1+" & "+num2+" gives");
+    	 System.out.println("Division of "+num1+" & "+num2+" gives");
     	 System.out.println(Math.Division(num1, num2));
      }
-     
+     else
+    	 
+    	 System.out.println("This Operation is not valid");
      
      
      
